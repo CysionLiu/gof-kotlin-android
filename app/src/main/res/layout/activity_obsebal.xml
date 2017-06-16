@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/s1"
+        style="@style/text_common"
+        android:text="观察者1"/>
+
+    <TextView
+        android:id="@+id/s2"
+        style="@style/text_common"
+        android:text="观察者2"
+        />
+    <TextView
+        android:id="@+id/s3"
+        style="@style/text_common"
+        android:text="发生事件"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:textSize="10sp"
+        style="@style/text_common"
+        android:layout_height="200dp"
+        android:text="结果..."
+        />
+
+</LinearLayout>

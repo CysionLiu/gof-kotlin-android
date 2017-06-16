@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tvStrategy"
+        style="@style/text_common"
+        android:text="策略模式"/>
+
+    <TextView
+        android:id="@+id/tvObsever"
+        style="@style/text_common"
+        android:text="观察者模式"
+        />
+
+    <TextView
+        android:id="@+id/tvCommand"
+        style="@style/text_common"
+        android:text="命令模式"
+        />
+
+    <TextView
+        android:id="@+id/tvBuilder"
+        style="@style/text_common"
+        android:text="建造者模式"
+        />
+
+    <TextView
+        android:id="@+id/tvDecorate"
+        style="@style/text_common"
+        android:text="装饰者模式"
+        />
+
+</LinearLayout>
